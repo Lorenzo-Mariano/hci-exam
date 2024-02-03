@@ -1,0 +1,31 @@
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+		</style>
+		<link rel="stylesheet" href="styles/global.css">
+		<link rel="stylesheet" href="styles/webcam.css">
+		<script src="scripts/webcam.js" defer></script>
+		<title>Exam | Webcam</title>
+	</head>
+
+	<body>
+		<section class="video-wrapper">
+			<h1 class="gradient">Webcam Box</h1>
+			<video id="webcam"></video>
+		</section>
+
+		<section class="buttons shadow">
+			<h1 class="gradient">Status:</h1>
+			<span id='status'></span>
+
+			<hr><br>
+			<h1 class="gradient">Options</h1>
+			<button class="button" onclick="off_cam()">Close webcam</button>
+		</section>
+	</body>
+
+</html>

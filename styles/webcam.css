@@ -1,0 +1,29 @@
+body {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.video-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+
+	flex: 1;
+	padding: 2rem;
+}
+
+video {
+	border-radius: 1rem;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	flex: 1;
+	gap: 1rem;
+	padding: 2rem;
+
+	background-color: #fff;
+}

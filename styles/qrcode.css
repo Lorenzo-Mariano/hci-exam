@@ -1,0 +1,55 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	gap: 2rem;
+}
+
+header {
+	align-self: center;
+	text-align: center;
+}
+
+.content-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+
+	margin-bottom: 24px;
+	gap: 4rem;
+
+	height: 80%;
+	width: 95%;
+}
+
+.inputs {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+	flex: 1;
+	gap: 2rem;
+}
+
+.input-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+.qr-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 2;
+
+	border-radius: 1rem;
+	padding: 2rem;
+	background-color: #fff;
+}

@@ -1,0 +1,76 @@
+* {
+	padding: 0;
+	margin: 0;
+
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #b1d9ff69;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #797bda;
+	border-radius: 1rem;
+}
+
+body {
+	background-color: #f0f0f0;
+}
+
+.header {
+	font-size: 4rem;
+	font-weight: 600;
+}
+
+.shadow {
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.gradient {
+	background: #A500AB;
+	background: linear-gradient(to right, #A500AB 0%, #5245a3 50%, #00B3BF 100%);
+	background-clip: clip;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+a {
+	all: unset;
+	color: #A500AB;
+}
+
+button {
+	all: unset;
+	background-color: #f707ff77;
+	font-weight: 700;
+	color: #ffffff;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	width: fit-content;
+}
+
+a:hover, button:hover {
+	cursor: pointer;
+	font-weight: 800;
+}
+
+button:hover {
+	background-color: #e807f0c4;
+}
+
+input {
+	all: unset;
+	border-bottom: 1px solid #A500AB;
+	background-color: #e0e0e041;
+	padding: 0.5rem 0.5rem;
+}
+
+input:focus {
+	background-color: #ffffff62;
+}
