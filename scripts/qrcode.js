@@ -1,5 +1,6 @@
 function generateQRCode() {
-	const value = document.getElementById('qr-code-value').value; const options = {
+	const value = document.getElementById('qr-code-value').value;
+	const options = {
 		value: value,
 		size: 400,
 		level: 'H'
