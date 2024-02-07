@@ -88,6 +88,11 @@ header {
 	cursor: pointer;
 }
 
+.gallery>img:hover {
+	transform: scale(1.05);
+	transition: all 100ms ease-in-out;
+}
+
 dialog {
 	position: fixed;
 	top: 50%;
