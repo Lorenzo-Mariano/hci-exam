@@ -29,12 +29,6 @@ header {
 	gap: 2rem;
 }
 
-/* .profile-head {
-	display: grid;
-	align-items: center;
-	grid-template-columns: 1fr 3fr;
-} */
-
 .profile-img {
 	border-radius: 100%;
 	height: 100px;
@@ -47,14 +41,6 @@ header {
 	justify-content: center;
 	align-items: flex-start;
 }
-
-/* .profile-details {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-
-	flex: 1;
-} */
 
 .profile-details {
 	display: grid;
@@ -75,6 +61,7 @@ header {
 
 	margin-bottom: 2rem;
 }
+
 
 .gallery>img {
 	/* some css magic i accidentally stumbled upon */
@@ -117,4 +104,31 @@ dialog {
 
 dialog::backdrop {
 	background-color: #000000be;
+}
+
+@media (max-width: 768px) {
+	.profile-head {
+		flex-direction: column;
+	}
+
+	.profile-head>section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.modal {
+		width: 95%;
+		background-color: #000;
+	}
+
+	.profile-details {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.gallery {
+		max-width: 90%;
+	}
 }
